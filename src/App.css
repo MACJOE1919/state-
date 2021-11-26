@@ -1,0 +1,16 @@
+*:not(Button) {
+  background: rgb(115, 113, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(115, 113, 145, 1) 0%,
+    rgba(42, 123, 139, 1) 28%,
+    rgba(70, 42, 120, 1) 100%
+  );
+}
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 5vh auto;
+  width: 300px;
+  height: 300px;
+}
